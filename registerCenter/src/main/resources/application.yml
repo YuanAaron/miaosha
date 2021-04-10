@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: registerCenter
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetch-registry: false
+    # 自己不当作eureka客户端，只作为服务端
+    register-with-eureka: false
